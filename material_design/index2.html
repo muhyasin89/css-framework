@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Carousel</h1>
+            <div class="carousel">
+                <a href="#one!" class="carousel-item">
+                    <img src="https://i.ytimg.com/vi/91Q6dNnPEP0/hqdefault.jpg">
+                </a>
+                <a href="#two!" class="carousel-item">
+                    <img src="https://i.ytimg.com/vi/91Q6dNnPEP0/hqdefault.jpg">
+                </a>
+                <a href="#three!" class="carousel-item">
+                    <img src="https://i.ytimg.com/vi/91Q6dNnPEP0/hqdefault.jpg">
+                </a>
+                <a href="#four!" class="carousel-item">
+                    <img src="https://i.ytimg.com/vi/91Q6dNnPEP0/hqdefault.jpg">
+                </a>
+            </div>
+            <div class="carousel carousel-slider">
+                    <a href="#one!" class="carousel-item">
+                        <img src="https://i.ytimg.com/vi/91Q6dNnPEP0/hqdefault.jpg">
+                    </a>
+                    <a href="#two!" class="carousel-item">
+                        <img src="https://i.ytimg.com/vi/91Q6dNnPEP0/hqdefault.jpg">
+                    </a>
+                    <a href="#three!" class="carousel-item">
+                        <img src="https://i.ytimg.com/vi/91Q6dNnPEP0/hqdefault.jpg">
+                    </a>
+                    <a href="#four!" class="carousel-item">
+                        <img src="https://i.ytimg.com/vi/91Q6dNnPEP0/hqdefault.jpg">
+                    </a>
+                </div>
+
+            <!-- Collapsible -->
+            <h1>Collapsible</h1>
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header active">
+                        <i class="material-icons">filter_drama</i>First
+                    </div>
+                    <div class="collapsible-body">
+                        <span>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockup</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">filter_drama</i>Second
+                    </div>
+                    <div class="collapsible-body">
+                        <span>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockup</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">filter_drama</i>Third
+                    </div>
+                    <div class="collapsible-body">
+                        <span>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockup</span>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- TOASTS -->
+            <h1>TOASTS</h1>
+            <a onclick="M.toast({html: 'I am a toast'})" class="btn">Toast!</a>
+
+            <!-- ToolTips -->
+            <a href="" class="btn tooltipped" data-position="top" data-tooltip="i am tooltip">Hover Me</a>
+            <a href="" class="btn tooltipped" data-position="bottom" data-tooltip="i am tooltip">Hover Me</a>
+            <a href="" class="btn tooltipped" data-position="left" data-tooltip="i am tooltip">Hover Me</a>
+            <a href="" class="btn tooltipped" data-position="right" data-tooltip="i am tooltip">Hover Me</a>
+
+            <!-- Drop Down -->
+            <h1>Dropdown</h1>
+            <a class="dropdown-button btn" data-target="dropdown1">Dropdown</a>
+            <!--Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">One</a></li>
+                <li><a href="#!">Two</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">three</a></li>
+                <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+            </ul>
+
+
+            <!-- Material Boxed -->
+            <h1>Material Boxed</h1>
+
+            <img src="https://i.ytimg.com/vi/91Q6dNnPEP0/hqdefault.jpg" alt="" class="materialboxed" data-caption="material boxed">
+
+            <!-- Slider -->
+            <h1>Slider</h1>
+
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="https://lorempixel.com/580/250/nature/1" alt="">
+                        <div class="caption center-align">
+                            <h3>This is our tagline</h3>
+                            <h5 class="light gret-text text-lighten-3">
+                                Here is our slogan
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://lorempixel.com/580/250/nature/1" alt="">
+                        <div class="caption left-align">
+                            <h3>This is our tagline</h3>
+                            <h5 class="light gret-text text-lighten-3">
+                                Here is our slogan
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="https://lorempixel.com/580/250/nature/1" alt="">
+                        <div class="caption right-align">
+                            <h3>This is our tagline</h3>
+                            <h5 class="light gret-text text-lighten-3">
+                                Here is our slogan
+                            </h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Modal -->
+            <h1>Modal</h1>
+
+            <!-- Modal Triggers -->
+            <a href="#modal1" class="btn waves-effect">Modal 1</a>
+            <a href="#modal2" class="btn waves-effect red">Modal 1</a>
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="model">
+                <div class="modal-content">
+                    <h4>Modal Header</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="modal-action modal-close waves-effect waves-green">Button</a>
+                </div>
+            </div>
+
+
+            <!--Sidenav-->
+            <h1>Side Nav</h1>
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <a href=""><i class="material-icons">cloud</i>Link1</a>
+                </li>
+                <li>
+                    <a href="">Link2</a>
+                </li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li>
+                    <a class="subheader">Subheader</a>
+                </li>
+                <li>
+                    <a class="waves-effect">Link 3</a>
+                </li>
+            </ul>
+            <a href="#" data-target="slide-out" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+
+
+            <!-- Tabs-->
+            <h1>Tabs</h1>
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s3"><a href="#test1">Test 1</a></li>
+                        <li class="tab col s3"><a href="#test2">Test 2</a></li>
+                        <li class="tab col s3"><a href="#test3">Test 3</a></li>
+                        <li class="tab col s3"><a href="#test4">Test 4</a></li>
+                    </ul>
+                </div>
+                <div id="test1" class="col s12">Test 1</div>
+                <div id="test2" class="col s12">Test 2</div>
+                <div id="test3" class="col s12">Test 3</div>
+                <div id="test4" class="col s12">Test 4</div>
+            </div>
+
+
+            <!-- Tap Target -->
+            <div class="fixed-action-btn" style="bottom:45px;right:24px">
+                <a id="menu" onclick="$('.tap-target').tapTarget('open')" class="waves-effect waves-light btn btn-floating btn-large cyan">
+                    <i class="material-icons">menu</i>
+                </a>
+            </div>
+
+            <!-- Tap Target Content -->
+            <div class="tap-target cyan" data-target="menu">
+                <div class="tap-target-content white-text">
+                    <h5>Tap Target Content</h5>
+                    <p class="white-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, porro explicabo. Quisquam beatae dicta quasi reiciendis, nihil saepe sed error alias, mollitia consectetur, veniam dolorem numquam possimus reprehenderit obcaecati deleniti!</p>
+                </div>
+            </div>
+        </div><!-- End:Container -->
+
+        <div style="height:200px"></div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            //Init Carousel
+            $('.carousel').carousel();
+            $('.carousel.carousel-slider').carousel({fullWidth:true});
+            $('.collapsible').collapsible();
+
+            $('.tooltipped').tooltip();
+
+            $('.dropdown-button').dropdown();
+
+            $('.slider').slider();
+            $('.sidenav').sidenav();
+
+            $('.tabs').tabs();
+
+            $('.tap-target').tapTarget();
+        });
+    </script>
+</body>
+  </html>
